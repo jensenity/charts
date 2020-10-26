@@ -6,8 +6,8 @@ replicaCount: 1
 podAnnotations: {}
 podLabels: {}
 image:
-  repository: metabase/metabase
-  tag: v0.36.3
+  repository: 452088682590.dkr.ecr.ap-northeast-2.amazonaws.com/de/metabase
+  tag: v0.36.2
   pullPolicy: IfNotPresent
 
 ## String to fully override metabase.fullname template
